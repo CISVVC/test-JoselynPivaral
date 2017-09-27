@@ -1,0 +1,117 @@
+/* body tag selector */
+body {
+    /* make the font family Open Sans */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* section element with the header class selector */
+section.header {
+    /* color of the text */
+   color: #fff!important;
+    /*background color of the element */
+   background-color:#194d33;
+   /* rounded border of the element is 5px */
+   border-radius: 5px;
+     /* align any element in the element to the center */
+   text-align: center;
+    /* inner padding of the element is 5px */
+   padding: 5px;
+}
+
+/* set section after head element */
+.section-head {
+    /* color of the text */
+  color: #194d33;
+     /* align any element in the element to the center */
+  text-align: center;
+    /* inner padding of the element is 1% */
+  padding:1%;
+}
+/* h2 element with the selected selector */
+h2.selected{
+     /* color of the text */
+    color: white;
+}
+/* set selected selector */
+.selected {
+    /*background color of the element */
+    background-color:#194d33;
+    /* rounded border of the element is 5px */
+    border-radius: 5px;
+}
+/* set article after container element */
+.article-container {
+    /* maximum width of element is 100% */
+  max-width:100%;
+     /* top margin of the element is 0 
+    right margin is 5% 
+    bottom margin is 0 
+    left margin is 5% */ 
+  margin:0 5% 0 5%;
+}
+/* set article after container element p */
+.article-container p {
+     /* inner padding of the element is 5px */
+    padding: 5px;
+    /* margin of the element is 0 */
+    margin: 0;
+}
+/* set article after box element p */
+.article-box {  
+    /* margin of the element is 0 */
+  margin : 0;
+     /* inner padding of the element is 0 */
+    padding : 0;
+    /* width of element is 25% */
+  width : 25%;
+     /* height of the element is 10% */
+  height: 10%;
+    /* float of element is to the left */
+  float : left;
+
+}
+/* set section after link element */
+.section-link  { 
+    /* text decoration of element is default */
+  text-decoration: none;
+}
+/* set content after container element */
+.content-container {
+    /* both sides of the element not floating */
+    clear:both;
+    /*background color of the element */
+    background-color: #ffffe6;
+    /* border of the element is 1px 
+    border color of the element */
+    border: 1px solid #133913;
+    /* rounded corners of the element is 5px */
+    border-radius: 5px;
+    /* maximum width of element is 100% */ 
+    max-width:100%;
+    /* top margin of the element is 100px 
+    right margin is 5% 
+    bottom margin is 0 
+    left margin is 5% */ 
+    margin:100px 5% 0 5%;
+     /* inner padding of the element is 2% */
+    padding:2%;
+}
+
+/* set page after footer element */
+.page-footer {
+     /* color of the text */
+    color:white;  
+ /*background color of the element */
+    background-color:#194d33;
+    /* rounded corners of the element is 5px */
+    border-radius:5px;
+     /* align any element in the element to the center */
+    text-align : center;
+    /* top margin of the element is 5% 
+    right margin is 0
+    bottom margin is 0
+    eft margin is 0 */      
+    margin : 5% 0 0 0;
+     /* inner padding of the element is 1% */
+    padding : 1%;
+}
